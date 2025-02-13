@@ -10,6 +10,7 @@ class Task:
         self.status = status
         self.priority = priority
 
+
     def __str__(self):
         return f"ID: {self.id} | Description: {self.description} | Deadline: {self.deadline} | Status: {self.status} | Priority: {self.priority}"
 
